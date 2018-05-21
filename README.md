@@ -1,7 +1,7 @@
 # Recostructor-NMT
 
 [English-Japanese Neural Machine Translation with Encoder-Decoder-Reconstructor](https://arxiv.org/abs/1706.08198)
-(Matsumura et al)に使用した実装です。
+に使用した実装です。
 
 ## 1. 環境設定
 はじめに、以下の環境設定が必要（バージョンは推奨）です。このうち、chainer及びcupyは記載されたバージョンであることを強く推奨します。
@@ -14,7 +14,7 @@
 
 ## 2. 実験設定
 実験の設定はconfigファイルにて行います。/sample/sample\_reconstructor.configが設定例です。
-なお、nmt-chainerで事前学習したNMTモデルが必要です。
+なお、[nmt-chainer](nmt-chainer)で事前学習したNMTモデルが必要です。
 
 
 - **pre_model** : 事前学習したモデルの名前を指定してください。
