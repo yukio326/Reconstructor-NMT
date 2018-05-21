@@ -14,7 +14,7 @@
 
 ## 2. 実験設定
 実験の設定はconfigファイルにて行います。/sample/sample\_reconstructor.configが設定例です。
-なお、[nmt-chainer](https://github.com/yukio326/chainer-nmt)で事前学習したNMTモデルが必要です。
+なお、[nmt-chainer](https://github.com/yukio326/nmt-chainer)で事前学習したNMTモデルが必要です。
 
 
 - **pre_model** : 事前学習したモデルの名前を指定してください。
