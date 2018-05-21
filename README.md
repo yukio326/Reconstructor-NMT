@@ -1,4 +1,4 @@
-# Recostructor-NMT
+# Reconstructor-NMT
 
 [English-Japanese Neural Machine Translation with Encoder-Decoder-Reconstructor](https://arxiv.org/abs/1706.08198)
 に使用した実装です。
