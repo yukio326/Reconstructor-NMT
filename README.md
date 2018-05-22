@@ -101,7 +101,7 @@ python src/reconstructor.py [MODE] [CONFIG_PATH] [BEST_EPOCH (only testing)]
 - **pooling** : 学習時にはコーパス全体の文をランダムに入れ替えた後、batch\_size×pooling文のブロック内で文がソートされ、ミニバッチを作成します。この数は整数で指定してください。
 - **generation_limit** : 開発時および評価時の生成単語制限数を整数で指定してください。この機能は無限に単語を生成し続けることを防ぐためのものです。指定した制限数の単語をすでに生成している場合、仮に翻訳の途中であっても文が終了してしまうことに注意してください。
 - **use_beamsearch** : 評価時にbeam searchを行う場合はTrue、行わない場合はFalseを指定してください。
-- **use_reconstructor_beamsearch** : 評価時にbeam searchを行う場合に、reconstructorでの予測まで含める場合はTrue、含めない場合はFalseを指定してください。
+- **use_reconstructor_beamsearch** : 評価時にbeam searchを行う場合に、Reconstructorでの予測まで含める場合はTrue、含めない場合はFalseを指定してください。
 - **beam_size** : 評価時にbeam searchを行う場合のbeam sizeを整数で指定してください。
 
 ### 3. 実行方法
