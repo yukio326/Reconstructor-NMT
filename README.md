@@ -5,7 +5,8 @@
 
 
 
-##English
+## English
+
 ## 1. Environmental Settings
 You have to install these module. The written virsion is recommended.
 - Python 3.5.1
@@ -58,7 +59,8 @@ python src/reconstructor.py [MODE] [CONFIG_PATH] [BEST_EPOCH (only testing)]
 - **BEST_EPOCH** : The epoch number of model using on testing.
 
 
-##日本語
+## 日本語
+
 ## 1. 環境設定
 はじめに、以下の環境設定が必要（バージョンは推奨）です。このうち、chainer及びcupyは記載されたバージョンであることを強く推奨します。
 - Python 3.5.1
