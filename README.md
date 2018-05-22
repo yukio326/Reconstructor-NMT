@@ -13,7 +13,7 @@
 - gensim (ver 2.2.0)
 
 ## 2. 実験設定
-実験の設定はconfigファイルにて行います。[sample\_reconstructor.config](https://github.con/yukio326/Reconstructor-NMT/blob/master/sample/sample_reconstructor.config)が設定例です。
+実験の設定はconfigファイルにて行います。[sample\_reconstructor.config](https://github.com/yukio326/Reconstructor-NMT/blob/master/sample/sample_reconstructor.config)が設定例です。
 なお、[nmt-chainer](https://github.com/yukio326/nmt-chainer)で事前学習したNMTモデルが必要です。
 
 
