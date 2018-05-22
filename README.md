@@ -48,7 +48,7 @@
 プログラムを実行するには、モデルを保存したい（保存してある）ディレクトリで以下のコマンドを実行してください。
 
 ```
-python src/reconstructor.py [MODE] [CONFIG_PATH] [BEST_EPOCH (on testing)]
+python src/reconstructor.py [MODE] [CONFIG_PATH] [BEST_EPOCH (only testing)]
 ```
 
 - **MODE** : "train"、"dev"、"test"のいずれかを指定してください。ただし、"train"済みのモデルが存在しない場合は"dev"、"test"モードは正しく実行されません。
