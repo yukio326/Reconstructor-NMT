@@ -1,11 +1,8 @@
 # Reconstructor-NMT
 
-[English-Japanese Neural Machine Translation with Encoder-Decoder-Reconstructor](https://arxiv.org/abs/1706.08198)
-に使用した実装です。
-
-
-
 ## English
+
+The implementation using in [English-Japanese Neural Machine Translation with Encoder-Decoder-Reconstructor](https://arxiv.org/abs/1706.08198). 
 
 ### 1. Environmental Settings
 You have to install these module. The written virsion is recommended.
@@ -60,6 +57,9 @@ python src/reconstructor.py [MODE] [CONFIG_PATH] [BEST_EPOCH (only testing)]
 
 
 ## 日本語
+
+[English-Japanese Neural Machine Translation with Encoder-Decoder-Reconstructor](https://arxiv.org/abs/1706.08198)
+に使用した実装です。
 
 ### 1. 環境設定
 はじめに、以下の環境設定が必要（バージョンは推奨）です。このうち、chainer及びcupyは記載されたバージョンであることを強く推奨します。
