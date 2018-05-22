@@ -2,7 +2,7 @@
 
 ## English
 
-This is an implementation using in [English-Japanese Neural Machine Translation with Encoder-Decoder-Reconstructor](https://arxiv.org/abs/1706.08198). 
+This is an implementation of Reconstructor-NMT using in [English-Japanese Neural Machine Translation with Encoder-Decoder-Reconstructor](https://arxiv.org/abs/1706.08198). 
 
 ### 1. Environmental Settings
 You have to install these module. The written virsion is recommended.
