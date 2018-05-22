@@ -7,7 +7,7 @@
 
 ## English
 
-## 1. Environmental Settings
+### 1. Environmental Settings
 You have to install these module. The written virsion is recommended.
 - Python 3.5.1
 - chainer (ver 4.0.0)
@@ -16,7 +16,7 @@ You have to install these module. The written virsion is recommended.
 - h5py (ver 2.7.1)
 - gensim (ver 2.2.0)
 
-## 2. Experimental Settings
+### 2. Experimental Settings
 You have to write experimental settings in the configration file. You can see the sample configration file [sample\_reconstructor.config](https://github.com/yukio326/Reconstructor-NMT/blob/master/sample/sample_reconstructor.config).
 Reconstructor-NMT need NMT model pre-trained by [nmt-chainer](https://github.com/yukio326/nmt-chainer).
 
@@ -48,7 +48,7 @@ Reconstructor-NMT need NMT model pre-trained by [nmt-chainer](https://github.com
 - **use_beamsearch** : True / False
 - **beam_size** : The beam size on testing.
 
-## 3. Execution
+### 3. Execution
 
 ```
 python src/reconstructor.py [MODE] [CONFIG_PATH] [BEST_EPOCH (only testing)]
@@ -61,7 +61,7 @@ python src/reconstructor.py [MODE] [CONFIG_PATH] [BEST_EPOCH (only testing)]
 
 ## 日本語
 
-## 1. 環境設定
+### 1. 環境設定
 はじめに、以下の環境設定が必要（バージョンは推奨）です。このうち、chainer及びcupyは記載されたバージョンであることを強く推奨します。
 - Python 3.5.1
 - chainer (ver 4.0.0)
@@ -70,7 +70,7 @@ python src/reconstructor.py [MODE] [CONFIG_PATH] [BEST_EPOCH (only testing)]
 - h5py (ver 2.7.1)
 - gensim (ver 2.2.0)
 
-## 2. 実験設定
+### 2. 実験設定
 実験の設定はconfigファイルにて行います。[sample\_reconstructor.config](https://github.com/yukio326/Reconstructor-NMT/blob/master/sample/sample_reconstructor.config)が設定例です。
 なお、[nmt-chainer](https://github.com/yukio326/nmt-chainer)で事前学習したNMTモデルが必要です。
 
@@ -102,7 +102,7 @@ python src/reconstructor.py [MODE] [CONFIG_PATH] [BEST_EPOCH (only testing)]
 - **use_beamsearch** : 評価時にbeam searchを行う場合はTrue、行わない場合はFalseを指定してください。
 - **beam_size** : 評価時にbeam searchを行う場合のbeam sizeを整数で指定してください。
 
-## 3. 実行方法
+### 3. 実行方法
 プログラムを実行するには、モデルを保存したい（保存してある）ディレクトリで以下のコマンドを実行してください。
 
 ```
