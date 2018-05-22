@@ -3,6 +3,62 @@
 [English-Japanese Neural Machine Translation with Encoder-Decoder-Reconstructor](https://arxiv.org/abs/1706.08198)
 に使用した実装です。
 
+
+
+##English
+## 1. Environmental Settings
+You have to install these module. The written virsion is recommended.
+- Python 3.5.1
+- chainer (ver 4.0.0)
+- numpy (ver 1.14.2)
+- cupy (ver 4.0.0)
+- h5py (ver 2.7.1)
+- gensim (ver 2.2.0)
+
+## 2. Experimental Settings
+You have to write experimental settings in the configration file. You can see the sample configration file [sample\_reconstructor.config](https://github.com/yukio326/Reconstructor-NMT/blob/master/sample/sample_reconstructor.config).
+Reconstructor-NMT need NMT model pre-trained by [nmt-chainer](https://github.com/yukio326/nmt-chainer).
+
+
+- **model** : Model name.
+- **pre_model** : Pre-trained model name.
+- **pre_best_epoch** : The best epoch number of the pre-trained model.
+- **source_train** : The path to source train file.
+- **target_train** : The path to target train file.
+- **source_dev** : The path to source development file.
+- **source_test** : The path to source test file.
+- **use_gpu** : True / False
+- **gpu_device** : The GPU number.
+- **use_word2vec** : "Make" / "Load" / "None" 
+- **source_word2vec_file** : The path to source word2vec file.
+- **target_word2vec_file** : The path to target word2vec file.
+- **epoch** : The epoch number on training.
+- **optimizer** : "SGD" / "Adam" / "AdaDelta" / "AdaGrad"
+- **learning_rate** : The initial learning rate.
+- **use_dropout** : True / False
+- **dropout_rate** : The dropout rate.
+- **source_vocabulary_size** : The source vocabulary size.
+- **target_vocabulary_size** : The target vocabulary size.
+- **embed_size** : The embedding size.
+- **hidden_size** : The hidden size.
+- **batch_size** : The minibatch size.
+- **pooling** : The minibatch pooling size.
+- **generation_limit** : The generation limit number on testing.
+- **use_beamsearch** : True / False
+- **beam_size** : The beam size on testing.
+
+## 3. Execution
+
+```
+python src/reconstructor.py [MODE] [CONFIG_PATH] [BEST_EPOCH (only testing)]
+```
+
+- **MODE** : "train" / "dev" / "test"
+- **CONFIG_PATH** : The path to configration file.
+- **BEST_EPOCH** : The epoch number of model using on testing.
+
+
+##日本語
 ## 1. 環境設定
 はじめに、以下の環境設定が必要（バージョンは推奨）です。このうち、chainer及びcupyは記載されたバージョンであることを強く推奨します。
 - Python 3.5.1
