@@ -18,6 +18,7 @@
 
 
 - **pre_model** : 事前学習したモデルの名前を指定してください。
+- **pre_best_epoch** : 事前学習したモデルにおける最良モデルのエポック数を整数で指定してください。
 - **model** : 保存するモデルの名前を指定してください。
 - **source_train** : 学習用ソースファイルのパスを指定してください。
 - **target_train** : 学習用ターゲットファイルのパスを指定してください。
@@ -48,8 +49,9 @@
 プログラムを実行するには、モデルを保存したい（保存してある）ディレクトリで以下のコマンドを実行してください。
 
 ```
-python src/reconstructor.py [MODE] [CONFIG_PATH] [BEST_PRE_EPOCH (on training) / BEST_EPOCH (on testing)]
+python src/reconstructor.py [MODE] [CONFIG_PATH] [BEST_EPOCH (on testing)]
 ```
 
 - **MODE** : "train"、"dev"、"test"のいずれかを指定してください。ただし、"train"済みのモデルが存在しない場合は"dev"、"test"モードは正しく実行されません。
 - **CONFIG_PATH** : 実験設定を記述したconfigファイルのパスを指定してください。
+- **BEST_EPOCH** : "test"モードのときのみ、使用するモデルのエポック数を整数で指定してください。
