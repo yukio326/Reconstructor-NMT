@@ -13,16 +13,15 @@
 - gensim (ver 2.2.0)
 
 ## 2. 実験設定
-実験の設定はconfigファイルにて行います。/sample/sample\_reconstructor.configが設定例です。
+実験の設定はconfigファイルにて行います。[sample\_reconstructor.config](https://github.con/yukio326/Reconstructor-NMT/sample/sample_reconstructor.config)が設定例です。
 なお、[nmt-chainer](https://github.com/yukio326/nmt-chainer)で事前学習したNMTモデルが必要です。
 
 
+- **model** : 保存するモデルの名前を指定してください。
 - **pre_model** : 事前学習したモデルの名前を指定してください。
 - **pre_best_epoch** : 事前学習したモデルにおける最良モデルのエポック数を整数で指定してください。
-- **model** : 保存するモデルの名前を指定してください。
 - **source_train** : 学習用ソースファイルのパスを指定してください。
 - **target_train** : 学習用ターゲットファイルのパスを指定してください。
-- **output_train** : 事前学習用Generator出力サンプルファイルのパスを指定してください。
 - **source_dev** : 開発用ソースファイルのパスを指定してください。
 - **source_test** : 評価用ソースファイルのパスを指定してください。
 - **use_gpu** : GPUを使用する場合はTrue、CPUを使用する場合はFalseを指定してください。
