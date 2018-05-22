@@ -5,7 +5,7 @@
 This is an implementation of Reconstructor-NMT using in [English-Japanese Neural Machine Translation with Encoder-Decoder-Reconstructor](https://arxiv.org/abs/1706.08198). 
 
 ### 1. Environmental Settings
-You have to install these module. The written virsion is recommended.
+You have to install these modules. The written virsion is recommended.
 - Python 3.5.1
 - chainer (ver 4.0.0)
 - numpy (ver 1.14.2)
