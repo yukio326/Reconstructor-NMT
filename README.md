@@ -2,7 +2,7 @@
 
 ## English
 
-The implementation using in [English-Japanese Neural Machine Translation with Encoder-Decoder-Reconstructor](https://arxiv.org/abs/1706.08198). 
+This is an implementation using in [English-Japanese Neural Machine Translation with Encoder-Decoder-Reconstructor](https://arxiv.org/abs/1706.08198). 
 
 ### 1. Environmental Settings
 You have to install these module. The written virsion is recommended.
@@ -15,7 +15,7 @@ You have to install these module. The written virsion is recommended.
 
 ### 2. Experimental Settings
 You have to write experimental settings in the configration file. You can see the sample configration file [sample\_reconstructor.config](https://github.com/yukio326/Reconstructor-NMT/blob/master/sample/sample_reconstructor.config).
-Reconstructor-NMT need NMT model pre-trained by [nmt-chainer](https://github.com/yukio326/nmt-chainer).
+Reconstructor-NMT needs NMT model pre-trained by [nmt-chainer](https://github.com/yukio326/nmt-chainer).
 
 
 - **model** : Model name.
